@@ -1,0 +1,168 @@
+@font-face {font-family: Eesti;src: url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Regular.eot);src: url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Regular.eot?#iefix) format("embedded-opentype"), url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Regular.woff) format("woff"), url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Regular.ttf) format("truetype");font-weight: normal;font-style: normal}
+@font-face {font-family: Eesti;src: url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-UBold.eot);src: url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-UBold.eot?#iefix) format("embedded-opentype"), url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-UBold.woff) format("woff"), url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-UBold.ttf) format("truetype");font-weight: 800;font-style: normal}
+@font-face {font-family: Eesti;src: url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Medium.eot);src: url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Medium.eot?#iefix) format("embedded-opentype"), url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Medium.woff) format("woff"), url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Medium.ttf) format("truetype");font-weight: 500;font-style: normal}
+
+
+
+.cbp-hrmenu {
+	width: 100%;
+	margin-top: 0em;
+	border-top: 0px solid #900028;
+	
+}
+
+/* general ul style */
+.cbp-hrmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/* first level ul style */
+.cbp-hrmenu > ul,
+.cbp-hrmenu .cbp-hrsub-inner {
+	margin: 0 20px;
+    padding: 2px 1em;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.cbp-hrmenu > ul > li {
+	display: inline-block;
+}
+
+.cbp-hrmenu > ul > li > a {font-family: 'Eesti', sans-serif;
+    font-size: 16px;
+	font-weight: 500;
+	padding: 16px 18px;
+	color: #fff; background:#902924;
+	display: inline-block;    text-transform: uppercase;
+}
+
+.cbp-hrmenu > ul > li > a:hover, .cbp-hrmenu > ul > li > a:focus {
+	color: #fff;background: #a62f28; 
+}
+
+.cbp-hrmenu > ul > li.cbp-hropen a{
+	color: #fff;
+}
+.cbp-hrmenu > ul > li.cbp-hropen > a:hover, .cbp-hrmenu > ul > li.cbp-hropen > a:focus {background: #900028;}
+
+/* sub-menu */
+.cbp-hrmenu .cbp-hrsub {
+	display: none;
+	position: absolute;
+	background: #36353d url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/icecream-base-1.png); background-size: cover;
+	width: 100%;
+	left: 0;
+}
+
+.cbp-hropen .cbp-hrsub {
+	display: block;
+	 z-index: 9;
+}
+
+
+.cbp-hrmenu .cbp-hrsub-inner > div {
+	/*width: 33%;*/
+	float: left;
+	padding: 0 2em 0;
+}
+
+.cbp-hrmenu .cbp-hrsub-inner:before,
+.cbp-hrmenu .cbp-hrsub-inner:after {
+	content: " ";
+	display: table;
+}
+
+.cbp-hrmenu .cbp-hrsub-inner:after {
+	clear: both;
+}
+
+.cbp-hrmenu .cbp-hrsub-inner > div a {
+	line-height: 2em;
+}
+
+.cbp-hrsub h4 {
+	color: #fff; border-left:2px solid #900028;
+	padding: 12px .6em;
+	margin: 0;
+	font-size:22px;
+	font-weight: 300;font-family:'Ubuntu', sans-serif;
+}
+
+.bg-shadow{padding-bottom: 90px;background: #36353d url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/icecream-base-2.png); background-size: cover;}
+
+
+
+header .cbp-hrsub h4 {
+border-left:2px solid #fff;
+}
+	
+	
+	
+	
+/* Examples for media queries */
+
+@media screen and (max-width: 52.75em) { 
+
+	.cbp-hrmenu {
+		font-size: 80%;
+	}
+
+}
+
+@media screen and (max-width: 43em) { 
+
+	.cbp-hrmenu {
+		font-size: 120%;
+		border: none;
+	}
+
+	.cbp-hrmenu > ul,
+	.cbp-hrmenu .cbp-hrsub-inner {
+		width: 100%;
+		padding: 0;
+	}
+
+	.cbp-hrmenu .cbp-hrsub-inner {
+		padding: 0 2em;
+		font-size: 75%;
+	}
+
+	.cbp-hrmenu > ul > li {
+		display: block;
+		border-bottom: 4px solid #47a3da;
+	}
+
+	.cbp-hrmenu > ul > li > a { 
+		display: block;
+		padding: 1em 3em;
+	}
+
+	.cbp-hrmenu .cbp-hrsub { 
+		position: relative;
+	}
+
+	.cbp-hrsub h4 {
+		padding-top: 0.6em;
+	}
+
+}
+
+@media screen and (max-width: 36em) { 
+	.cbp-hrmenu .cbp-hrsub-inner > div {
+		width: 100%;
+		float: none;
+		padding: 0 2em;
+	}
+}
+
+@media (max-width:1400px){
+.cbp-hrmenu > ul > li > a {padding: 16px 10px;}
+}
+
+@media (min-width:1700px){
+.cbp-hrmenu > ul > li > a {padding: 16px 24px;}
+}

@@ -1,0 +1,65 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  .awards{
+    
+       h1{
+        color: white;
+        text-align: center;
+    
+        background: url(https://www.topntown.com/images/icecream-base-1.png);
+        font-size: 50px;
+         padding: 50px;
+    }
+    .discription{
+        h2{
+            color: grey;
+            span{
+                color: brown;
+            }
+        }
+        h3{
+            color: brown;
+            font-size: 50px;
+        }
+    }
+}
+#end {
+    background: url(https://www.topntown.com/images/icecream-base-1.png);
+    padding: 30px;
+    .parent {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  
+      .child1 {
+        width: 350px;
+        height: 330px;
+        padding: 10px;
+        background-color: #00000000;
+        border: 2px solid rgb(253, 253, 253);
+        margin-right: 20px;
+  
+        img {
+          width: 80%;
+        }
+      }
+  
+      .child {
+        h3 {
+          color: white;
+          font-size: 40px;
+          margin-bottom: 30px;
+        }
+        p {
+          font-size: 30px;
+          color: white;
+          width: 600px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  

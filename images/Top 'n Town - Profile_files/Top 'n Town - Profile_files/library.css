@@ -1,0 +1,133 @@
+@charset "utf-8";@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@font-face {font-family: Eesti;src: url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Regular.eot);src: url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Regular.eot?#iefix) format("embedded-opentype"), url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Regular.woff) format("woff"), url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Regular.ttf) format("truetype");font-weight: normal;font-style: normal}
+@font-face {font-family: Eesti;src: url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-UBold.eot);src: url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-UBold.eot?#iefix) format("embedded-opentype"), url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-UBold.woff) format("woff"), url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-UBold.ttf) format("truetype");font-weight: 800;font-style: normal}
+@font-face {font-family: Eesti;src: url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Medium.eot);src: url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Medium.eot?#iefix) format("embedded-opentype"), url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Medium.woff) format("woff"), url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/fonts/GT-Eesti-Display-Medium.ttf) format("truetype");font-weight: 500;font-style: normal}
+
+body{position:relative;padding:0;margin:0;font-family:'Montserrat', sans-serif;font-size:16px;color:#555; font-weight:normal;background:#fff;-moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased; overflow-x:hidden;text-rendering: optimizeLegibility;font-weight:normal;}a,a:active,a:link,a:hover{text-decoration:none;-webkit-transition:all .3s ease;transition:all .3s ease;outline:none}h1,h2,h3,h4,h5,h6,.h6{font-family: Eesti,Helvetica,Arial,sans-serif;margin:18px 0;font-weight:800; text-transform:uppercase}p{padding:10px auto;margin:10px auto; line-height:22px;font-weight: normal;}spacer:before{content:"\2044";display:inline;margin:0px 5px}spacer{display:inline;margin:0px 5px}.white-text{color:#fff}.red-text{color:#900028}.grey-text{color:#222}.pink-text{color:#ff2b73}.purple-text{color:#9f3cb4}*{box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box}.npm{ padding:0; margin:0} .brown-text{color:#902924}
+
+.container-fluid{padding: 0px 80px} .italics{font-family:'Eesti', sans-serif; font-weight:500;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale; font-size:22px} .text-shad{text-shadow: 1px 1px 2px black}.container-fluid1{padding: 0px 0px}.container-fluid2 {padding-right: 0px; padding-left: 0px}
+
+footer{ background:#900028;padding:19px 0; color:#fff; font-size:13px}#copyright{ background-color:#fff;border-top: dotted 2px #714036; padding:8px 0; color:#900028; font-size:13px}.red-links{color:#900028}.red-links:hover{color:#333}
+header{ background:#902924;position: fixed;z-index: 99; width:100%}.img-band{top:0px; position:absolute; z-index:999999}.embed-responsive-16by9 {padding-bottom: 56.25%}.embed-responsive {position: relative;display: block;height: 0;padding: 0;overflow: hidden}#video-tnt{ width:100%; height:380px}
+
+header .container-fluid{padding: 0px 0px; margin: 0 10%;}
+.scroll {position: absolute;left: 50%;bottom: -34px;top: 39.5%;margin-left: -73px;cursor: pointer;}
+
+.search{line-height:31px;display:inline-block;color:#999; background:#fff;text-align:right;cursor:pointer;border:1px solid #e1e1e1;padding:0px 15px; margin:0}#white-bg{ background:url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/pattern.jpg) repeat;padding:40px 0; border-bottom:1px solid #efefef;border-top:1px solid #efefef; margin-bottom:2px; margin-top:2px}#grey-bg {background:#efefef; padding:40px 0;}#white-base {background:#fff; padding:40px 0}
+
+#base{background:  url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/icecream-base-1.png) no-repeat; background-size:cover;-webkit-background-size: cover;-moz-background-size:cover;-o-background-size:cover; padding:40px 0;}
+
+.yellow-box {border: 1px solid #fff;padding: 0px;text-align: center}.grey-link{ color:#fff; padding:8px 12px; margin-top:12px; display:inline-table; border:1px solid #efefef; font-size:16px}.grey-link2{ color:#fff; background:#333; padding:8px 12px; margin-top:12px; display:inline-table; border:1px solid #efefef;font-size:16px}.border1{ border:1px solid #ccc; background:#fff; color:#777; padding:4px; display:block; overflow:hidden} .border1 p{line-height: 12px;}
+.btn-active2{color: #fff;border:1px solid #fff;padding:8px 12px;transition: .1s opacity linear; display:inline-table; font-size:13px;background-color: #900028;} .btn-active2:hover{background-color: #fff;border:1px solid #900028;color:#900028}
+
+.carousel-indicators {bottom: -80px}.carousel-indicators li {display: inline-block;width: 5px;height: 5px;margin: 1px;text-indent: -999px;cursor: pointer;background-color:#ccc;border: 1px solid #ccc;border-radius: 10px;}.carousel-indicators .active {width: 6px;height: 6px;margin: 0;background-color: #900028; border-color:#900028}
+
+/* Carousel Fade Transition */
+.flavours{ background:#fff; padding:25px 0px; padding-bottom:35px; text-align:center}#fade-quote-carousel.carousel {padding:5px 10px}#fade-quote-carousel.carousel .carousel-inner .item {opacity:0;-webkit-transition-property:opacity;-ms-transition-property:opacity;transition-property:opacity; }#fade-quote-carousel.carousel .carousel-inner .active {opacity:1;-webkit-transition-property:opacity;-ms-transition-property:opacity;transition-property:opacity}#fade-quote-carousel.carousel .carousel-indicators {bottom:0px}#fade-quote-carousel.carousel .carousel-indicators > li {background-color:#fce192;border:none}#fade-quote-carousel blockquote {text-align:center;border:none; font-size:14px}#fade-quote-carousel .profile-circle {width:80px;height:80px;margin:12px auto; margin-bottom:5px;border-radius:100px}#fade-quote-carousel h5{ font-size:13px; margin:3px;font-family:'Ubuntu', sans-serif; text-transform:uppercase}#fade-quote-carousel h5 big{ font-size:28px;font-family:'Eesti', sans-serif; font-weight:800}
+blockquote { font-size: 14px;border-left: 0px solid #eee;    color: #fff;}
+
+.heading{ border-bottom:1px solid #ccc; margin:10px auto; margin-bottom:0px; padding-bottom:0px}.heading:after {border: solid 3px #9CC90A;content: " ";display: block;width: 70px;margin: 0px auto; margin-bottom:20px}.heading1{ border-bottom:1px solid #ccc; margin:10px 0; margin-bottom:0px; padding-bottom:0px}.heading1:after {border: solid 3px #9CC90A;content: " ";display: block;width: 70px;margin: 0px; margin-bottom:20px}
+
+#ban1{background: url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/icecream-base-1.png)no-repeat 0px 0px;background-attachment: scroll;background-size: auto auto;background-size: cover;background-attachment: fixed;padding:45px 0; padding-top:100px; color:#fff}#ban1 h2{font-size:38px; text-transform:uppercase}
+.breadcrumb {background:transparent;float:none;font-size: 13px;color: #fff; border: 0px solid rgba(255,255,255,.25);-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;padding: 10px; margin:10px 5px;text-transform: lowercase} .breadcrumb a{ text-transform: capitalize;color:#fff}.spacer1{color: #fff;background: url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/site-arrow.png) right center no-repeat; padding: 8px 0;padding-right: 25px; margin-right: 15px}
+
+#base3m{ background:rgba(30,42,61,.6);color:#fff; background-size:cover;-webkit-background-size: cover;-moz-background-size:cover;-o-background-size:cover; padding:150px 0;}#base3m1{ padding:150px 0;}#base3{background: #666666  url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/icecream-base.jpg) no-repeat fixed ; color:#fff; background-size:cover;-webkit-background-size: cover;-moz-background-size:cover;-o-background-size:cover}#base4{background: #666666  url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/icecream-base-4.jpg) no-repeat fixed ; color:#fff; background-size:cover;-webkit-background-size: cover;-moz-background-size:cover;-o-background-size:cover}#base5{background: #666666  url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/icecream-base-5.jpg) no-repeat fixed ; color:#fff; background-size:cover;-webkit-background-size: cover;-moz-background-size:cover;-o-background-size:cover}#base6{background: #666666  url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/icecream-base-6.jpg) no-repeat fixed ; color:#fff; background-size:cover;-webkit-background-size: cover;-moz-background-size:cover;-o-background-size:cover}#base7{background: #666666  url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/icecream-base-7.jpg) no-repeat fixed ; color:#fff; background-size:cover;-webkit-background-size: cover;-moz-background-size:cover;-o-background-size:cover}#base8{background: #666666 url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/icecream-base-8.jpg) no-repeat fixed ; color:#fff; background-size:cover;-webkit-background-size: cover;-moz-background-size:cover;-o-background-size:cover}#base9{background: #666666 url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/icecream-base-9.jpg) no-repeat fixed ; color:#fff; background-size:cover;-webkit-background-size: cover;-moz-background-size:cover;-o-background-size:cover}#base10{background: #666666 url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/icecream-base-10.jpg) no-repeat fixed ; color:#fff; background-size:cover;-webkit-background-size: cover;-moz-background-size:cover;-o-background-size:cover}#base11{background: #666666 url(https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/icecream-base-11.jpg) no-repeat fixed ; color:#fff; background-size:cover;-webkit-background-size: cover;-moz-background-size:cover;-o-background-size:cover}
+
+.trans-bg{padding: 20px 30px; background: rgba(25, 25, 25, 0.5)}.icon{border-radius:50%; background:#ff2b73; width:100px; height:100px}.img-s{padding:4px;border:1px solid #900028}
+
+.text-box{margin:5px 0px;margin-right:0px;border:1px solid #ccc;height:39px;padding:10px 8px;width:100%;font-size:14px;background:#fff;border-radius:0px; color:#333}.text-area{margin:5px 0px;margin-right:7px;margin-bottom:10px;border:1px solid #ccc;height:240px;padding:10px 8px;width:100%;font-size:14px;background:#efefef;border-radius:0px}.w30{margin:5px 0px;margin-right:0px;border:1px solid #ccc;height:39px;padding:10px 8px;width:100px;font-size:14px;background:#efefef;border-radius:0px}
+textarea.form-control {height: 130px} .form-control:focus {border-color: #fff}.form-control{ background-color:#fff; color:#333}
+
+ul.square {list-style-type: square;margin-bottom: 0;padding-left: 0; margin-left:-15px }
+ul.square li {position: relative;list-style:none;padding-left: 1.5em; margin-left:15px;display:block;margin-bottom: 0.35em}
+ul.square li:before {content: '\2666'; color:#9f3cb4;position: absolute;left: 1px;top: 0}
+ul.square .square2 li {color:#555; list-style-type: square; display:block; position:static}
+
+.mar-pix{ padding:8px}
+
+hr.border { border-top:1px solid #900028}
+
+
+
+.panel { border: 0px solid transparent;  -webkit-box-shadow: 0;box-shadow: 0}.panel-default > .panel-heading { padding:12px 8px;border-radius: 3px;color: #fff;background-color: #902924;border-color: #EEEEEE}.panel-default > .panel-heading > h4{font-family:'Montserrat', sans-serif;font-weight:normal}.panel-title{font-size: 14px}.panel-default .glyphicon {padding: 0 8px}
+
+.product-img{ padding:35px 0px; border:1px solid #efefef;transition: all .15s ease-in-out; text-align:center}.product-img:hover{ background:#efefef} .product-img p a{font-family:'Eesti', sans-serif; line-height:24px; font-size:18px;} .product-img p big{font-family:'Eesti', sans-serif;font-sixe:20px}  .product-img small { color:#902924}.product-img p span{font-family:'Montserrat', sans-serif;color:#555; font-weight:500}.product-img img{ max-width:320px; height:auto;}
+
+
+#slider {overflow: hidden; height: 884px;position: relative;}
+
+.gn-menu-main ul {font-family: 'Eesti', sans-serif; font-size: 16px;}
+
+
+ 
+ @media (max-width:767px){.text-right, .text-justify{ text-align:left}.container-fluid {padding: 0px 15px}html body {min-width: 100%;min-height: 100%;-webkit-background-size: auto auto;-moz-background-size: auto auto;-o-background-size: auto auto;background-size: auto auto}.img-band{top:-13px}.navbar-brand>img {display: block;width: 70px;height: auto;margin-top: -3px}.navbar-inverse .navbar-brand {margin-top: -10px} .navbar {height: 40px;margin-bottom: 0px;border: 0px solid transparent}.navbar-inverse { background-color: #900028;border-color: #fff}
+ 
+ .example3 .nav >li >a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #60011b;
+    color: #fff;
+}
+ 
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {color: #fff;background-color: #900028;}
+.navbar-inverse .navbar-toggle {border-color: #900028;} 
+ .navbar-inverse .navbar-nav>li>a {color: #fff;border-bottom: 1px solid rgba(255,255,255,.2)}.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {color: #fff;background-color: #760021;border-bottom: 1px solid rgba(255,255,255,.2)}.navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>li>a:hover {text-decoration: none;background-color: #760021;color: #fff}
+ 
+#base3m {padding: 0px 0;}
+
+header { width: 100%;z-index: 9999999999;position: fixed;background: #902924;}
+
+.navbar-nav {margin: 0px -15px}
+.carousel-inner {padding-top: 0px;}
+.carousel-indicators {bottom: -40px}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #9d9d9d;
+    background: #fff;
+    margin-top: -6px;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {color: #666666; background-color:#fff;}
+
+}
+
+@media (max-width: @iphone-screen) {background-attachment:inherit;background-size:cover;-webkit-background-size:cover}
+
+
+
+
+
+
+@media (max-width:1680px){
+header .container-fluid {padding: 0px 0px; margin: 0 5%;}
+.cbp-hrmenu > ul > li > a { padding: 16px 28px;}
+.space2{ width:200px}
+}
+@media (max-width:1090px){
+header .container-fluid {padding: 0px 0px;margin: 0 10px;}
+.cbp-hrmenu > ul > li > a { padding: 16px 8px;}
+.cbp-hrmenu > ul > li > a {font-size: 12.5px;}
+}
+@media (max-width:1080px){
+header .container-fluid {padding: 0px 0px;margin: 0 10px;}
+.cbp-hrmenu > ul > li > a { padding: 16px 21px;}
+.cbp-hrmenu > ul > li > a {font-size: 11px; }
+}
+@media (max-width:1440px){
+header .container-fluid {padding: 0px 0px; margin: 0 3%;}
+.cbp-hrmenu > ul > li > a { padding: 17px 15px;}
+.cbp-hrmenu > ul > li > a {font-size: 14px}
+.scroll {top: 36.5%}
+
+}
+@media (max-width:1024px){
+header .container-fluid {padding: 0px 0px; margin: 0 5%;}
+.cbp-hrmenu > ul > li > a { padding: 20px 13px;}
+.cbp-hrmenu > ul > li > a {font-size: 12px}
+.img-band {width: 100px}
+.space2{ width:100px}
+.cbp-hrmenu > ul, .cbp-hrmenu .cbp-hrsub-inner { padding: 0px 1em;}
+.scroll {top: 26%}
+}
+@media (max-width:1023px){.scroll {display:none}
+.modal {position: fixed;top: 51px;right: 0;bottom: 0;left: 0;z-index: 999999999999;display: none;overflow: hidden;-webkit-overflow-scrolling: touch;outline: 0;}
+}
